@@ -16,14 +16,14 @@ L'examen est divisé en trois exercices principaux :
 Cet exercice traite de l'approche numérique d'un modèle de transport de matériaux par la méthode de discrétisation (différences finies explicites).
 
 Le modèle est l'équation aux dérivées partielles (EDP) suivante :
-$
-\begin{cases}
+
+$\begin{cases}
 \frac{\partial u}{\partial t} + (\beta - 1) \frac{\partial^2 u}{\partial x^2} = 0, \quad (x, t) \in [0, 1] \times [0, 1] \\
 u(0, t) = 2t \\
 \frac{\partial u}{\partial x}(1, t) = 1 - t \\
 u_0(x) = \cos^2(2\pi x)
-\end{cases} \quad (1)
-$
+\end{cases} \quad$ (1)
+
 où $(\beta - 1) \in ]0, 1]$ est le coefficient de diffusion.
 
 ### Questions (Théorie et Mise en Œuvre)
