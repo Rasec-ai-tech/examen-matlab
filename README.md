@@ -54,14 +54,16 @@ L'intégrale étudiée est :
 Cet exercice se concentre sur la résolution d'un système d'équations linéaires $\mathbf{AX} = \mathbf{B}$ par la méthode de décomposition LU.
 
 Le système à résoudre est défini par :
-$$
-\mathbf{A} = \begin{pmatrix}
-10 & 7 & 8 & 7 \\
-7 & 5 & 6 & 5 \\
-8 & 6 & 10 & 9 \\
-7 & 5 & 9 & 10
-\end{pmatrix}, \quad \mathbf{B} = \begin{pmatrix} 4 \\ 3 \\ 3 \\ 1 \end{pmatrix}.
-$$
+
+    A = | 10   7   8   7 |
+        |  7   5   6   5 |
+        |  8   6  10   9 |
+        |  7   5   9  10 |
+
+    B = | 4 |
+        | 3 |
+        | 3 |
+        | 1 |
 
 ### 1. Implémentation en MATLAB / Octave
 
