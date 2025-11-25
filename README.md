@@ -17,12 +17,12 @@ Cet exercice traite de l'approche numérique d'un modèle de transport de matér
 
 Le modèle est l'équation aux dérivées partielles (EDP) suivante :
 
-$\begin{cases}
-\frac{\partial u}{\partial t} + (\beta - 1) \frac{\partial^2 u}{\partial x^2} = 0, \quad (x, t) \in [0, 1] \times [0, 1] \\
-u(0, t) = 2t \\
-\frac{\partial u}{\partial x}(1, t) = 1 - t \\
-u_0(x) = \cos^2(2\pi x)
-\end{cases} \quad$ (1)
+    ∂u/∂t + (β - 1) ∂²u/∂x² = 0     pour (x, t) ∈ [0, 1] × [0, 1]
+
+Conditions :
+- u(0, t) = 2t
+- ∂u/∂x (1, t) = 1 - t
+- u₀(x) = cos²(2πx)
 
 où $(\beta - 1) \in ]0, 1]$ est le coefficient de diffusion.
 
