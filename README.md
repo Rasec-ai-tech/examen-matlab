@@ -39,9 +39,8 @@ où $(\beta - 1) \in ]0, 1]$ est le coefficient de diffusion.
 Cet exercice porte sur le calcul d'une intégrale définie, à la fois analytiquement et numériquement.
 
 L'intégrale étudiée est :
-$$
-I(f) = \int_{0}^{2\pi} (x^3 - 2\sin(x) + 1) \, dx.
-$$
+
+    I(f) = ∫₀^{2π} [x³ – 2·sin(x) + 1] dx
 
 ### Questions (Théorie et Code Matlab)
 
