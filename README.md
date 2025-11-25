@@ -87,30 +87,25 @@ Ce script suit exactement les mêmes trois étapes algorithmiques que la version
 
 Le code produit les matrices $\mathbf{L}$ et $\mathbf{U}$, ainsi que la solution finale $\mathbf{X}$ :
 
-* Matrice L :
-    $$
-    \mathbf{L} \approx \begin{pmatrix}
-    1.0000 & 0.0000 & 0.0000 & 0.0000 \\
-    0.7000 & 1.0000 & 0.0000 & 0.0000 \\
-    0.8000 & 0.4000 & 1.0000 & 0.0000 \\
-    0.7000 & 0.2000 & 1.5000 & 1.0000
-    \end{pmatrix}
-    $$
-* Matrice U :
-    $$
-    \mathbf{U} \approx \begin{pmatrix}
-    10.0000 & 7.0000 & 8.0000 & 7.0000 \\
-    0.0000 & 0.1000 & 0.4000 & 0.1000 \\
-    0.0000 & 0.0000 & 1.8000 & 2.1000 \\
-    0.0000 & 0.0000 & 0.0000 & 5.0000
-    \end{pmatrix}
-    $$
-* Vecteur Solution X :
-    $$
-    \mathbf{X} \approx \begin{pmatrix}
-    -4.0000 \\
-    -6.0000 \\
-    4.0000 \\
-    -1.0000
-    \end{pmatrix}
-    $$
+Résultats numériques attendus :
+
+Matrice L (approchée) :
+
+    | 1.0000  0.0000  0.0000  0.0000 |
+    | 0.7000  1.0000  0.0000  0.0000 |
+    | 0.8000  0.4000  1.0000  0.0000 |
+    | 0.7000  0.2000  1.5000  1.0000 |
+
+Matrice U (approchée) :
+
+    |10.0000  7.0000  8.0000  7.0000 |
+    | 0.0000  0.1000  0.4000  0.1000 |
+    | 0.0000  0.0000  1.8000  2.1000 |
+    | 0.0000  0.0000  0.0000  5.0000 |
+
+Vecteur solution X (approché) :
+
+    | -4.0000 |
+    | -6.0000 |
+    |  4.0000 |
+    | -1.0000 |
